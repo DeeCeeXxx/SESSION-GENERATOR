@@ -57,25 +57,26 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-*_Pair Code Connected by WASI TECH*
-*_Made With 🤍_*
-______________________________________
-╔════◇
-║ *『 WOW YOU'VE CHOSEN WASI MD 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
-╚════════════════════════╝
-╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@wasitech1_
-║❒ *Owner:* _https://wa.me/923192173398_
-║❒ *Repo:* _https://github.com/wasixd/WASI-MD
-║❒ *WaGroup:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
-║❒ *Plugins:* _https://github.com/wasixd/WASI-MD-PLUGINS_
-╚════════════════════════╝
-_____________________________________
+*TREX-MD PAIR CODE CONNECTED TO YOUR DEVICE*
+♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
+♡♡ *THANK YOU FOR CHOOSING TREX-MD* ♡♡
+♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
 
-_Don't Forget To Give Star To My Repo_`
+*FOLLOW OUR CHANNEL *
+𓄂 *https://whatsapp.com/channel/0029VajJoCoLI8YePbpsnE3q*
+
+*JOIN OUR GROUP *
+𓄂 *https://chat.whatsapp.com/D3iyJB5hrhF7ov7JxgW92C*
+
+*VISIT FOR TUTORIALS *
+𓄂 *https://www.youtube.com/@BERA_TECH*
+
+*DEVELOPER: BERA TECH*
+𓄂 *https://wa.me/254743982206*
+
+*POWERED BY BERA TECH* *MADE WITH 💎*
+
+_Make sure you leave a Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
 
